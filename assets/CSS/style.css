@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth; /* استایلی که حرکت در صفحه با هایپر لینک را نرم انجام می دهد*/ 
+}
+
+::placeholder{
+    font-size: 20px;  /*  با این سلکتور تمام پلیس هولدررهای صفحه با فونت سایز 20پیکسل نمایش داده میشود */
+}
+
+.downloadkey,
+.accesskey{
+    width: 200px;
+    height: 50px;
+    display: block;
+    background-color: aqua;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.progressBox{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.progressBox progress{
+    width: 300px;
+}
+.progressBox meter{
+    width: 300px;
+}
+.progressBox label{
+   display: inline-block;
+}
+
+
+
+
